@@ -18,6 +18,7 @@ sudo apt-get install -y \
     keyutils \
     lsb-release \
     mc \
+    nano \
     ncdu \
     nfs-common \
     openssh-server \
