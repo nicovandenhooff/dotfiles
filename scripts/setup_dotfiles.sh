@@ -4,7 +4,7 @@
 set -e
 
 # dotfiles directory
-DOTFILES_DIR=~/dotfiles
+DOTFILES_DIR=~/dotfiles/dotfiles
 
 # creating symlinks
 ln -sf $DOTFILES_DIR/.bash_aliases ~/.bash_aliases
