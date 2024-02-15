@@ -56,9 +56,6 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 # mkdir and cd into it
 function mkcd() { mkdir -p "$@" && cd "$_"; }
 
-# make vscode default editor
-export EDITOR='code'
-
 # tab autocomplete for ssh hosts
 complete -W "$(awk '/^Host / {print $2}' ~/.ssh/config)" ssh
 

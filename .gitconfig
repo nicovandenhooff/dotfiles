@@ -2,8 +2,5 @@
     name = Nico Van den Hooff
     email = nico.vandenhooff@xtractone.com
 
-[core]
-    editor = 'code --wait'
-
 [color]
     ui = auto

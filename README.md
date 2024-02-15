@@ -1,3 +1,3 @@
 # dotfiles
 
-This repo contains my dotfiles and general setup scripts for Linux.
+This repo contains my dotfiles for Linux.
