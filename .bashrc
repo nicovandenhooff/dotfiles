@@ -125,15 +125,3 @@ xterm*|rxvt*)
 *)
     ;;
 esac
-
-# print file in cwd as python list
-function list_files_as_python_list() {
-    local python_files=$(find "$(pwd)" -type f -printf '"%p",\n')
-    echo -e "[\n${python_files%,}"$'\n'"]"
-}
-alias pylist='list_files_as_python_list'
-
-# use nvm to manage node
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

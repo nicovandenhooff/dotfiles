@@ -55,9 +55,3 @@ alias jnnb='jupyter notebook --NotebookApp.token='' --ip=0.0.0.0 --no-browser &'
 
 # kill all jupyter processes
 alias jkill='pkill -f jupyter'
-
-# start vpn from config file
-alias vpn='sudo openfortivpn -c /etc/openfortivpn/config'
-
-# update everything
-alias update_system='sudo apt-get update && sudo apt-get upgrade'

@@ -6,7 +6,7 @@ esac
 
 # add Homebrew to PATH
 if [ -d "/opt/homebrew/bin" ]; then
-    export PATH="/opt/homebrew/bin:$PATH"  # For Apple Silicon Macs
+    export PATH="/opt/homebrew/bin:$PATH"
 fi
 
 # enable programmable completion features
